@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>nl.hu.hadoop</groupId>
-	<artifactId>wordcount</artifactId>
+	<artifactId>letters</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>wordcount</name>
+	<name>letters</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -109,7 +109,7 @@
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<manifestEntries>
-										<Main-Class>nl.hu.hadoop.wordcount.WordCount</Main-Class>
+										<Main-Class>nl.hu.hadoop.letters.Letters</Main-Class>
 									</manifestEntries>
 								</transformer>
 							</transformers>
